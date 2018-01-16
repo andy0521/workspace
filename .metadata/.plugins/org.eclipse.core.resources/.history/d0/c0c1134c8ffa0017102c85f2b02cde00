@@ -1,0 +1,102 @@
+package edu.fju.exam;
+
+public class VMLink {
+	String name;
+	int cost;
+public static	int cash =0;
+	public VMLink(String name, int cost) {
+		this.name = name;
+		this.cost = cost;
+		this.cash = cash;
+	}
+	
+
+	public void print (){
+		
+		if (name=="a"){
+			
+			if (cash<cost){
+				System.out.println("BEEP!");
+			}else{
+					System.out.println("DON!");
+					cash=cash-cost;
+
+					
+				}
+			if (name=="b"){
+				
+				if (cash<cost){
+					System.out.println("BEEP!");
+				}else{
+						System.out.println("DON!");
+						cash=cash-cost;
+
+						
+					}
+
+				if (name=="c"){
+					
+					if (cash<cost){
+						System.out.println("BEEP!");
+					}else{
+							System.out.println("DON!");
+							cash=cash-cost;
+
+							
+						}
+					if (name=="d"){
+						
+						if (cash<cost){
+							System.out.println("BEEP!");
+						}else{
+								System.out.println("DON!");
+								cash=cash-cost;
+
+								
+							}
+						if (name=="e"){
+							
+							if (cash<cost){
+								System.out.println("BEEP!");
+							}else{
+									System.out.println("DON!");
+									cash=cash-cost;
+
+									
+								}
+							if (name=="f"){
+								
+								if (cash<cost){
+									System.out.println("BEEP!");
+								}else{
+										System.out.println("DON!");
+										cash=cash-cost;
+
+										
+									}
+								if (name=="g"){
+									
+									if (cash<cost){
+										System.out.println("BEEP!");
+									}else{
+											System.out.println("DON!");
+											cash=cash-cost;
+
+											
+										}
+									if (name=="h"){
+										
+										if (cash<cost){
+											System.out.println("BEEP!");
+										}else{
+												System.out.println("DON!");
+												cash=cash-cost;
+
+												
+											}
+									}}}}}}}}}}
+					
+			
+		
+		
+

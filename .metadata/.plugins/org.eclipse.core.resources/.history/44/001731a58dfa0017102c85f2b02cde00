@@ -1,0 +1,48 @@
+package edu.fju.exam;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class VendingMachine {
+
+	public static void main(String[] args) {
+	boolean power=true;
+	int cash=0;
+VMLink[] drink = new VMLink[8];
+drink[0]=VMLink("a",10);
+drink[0]=VMLink("b",15);
+drink[0]=VMLink("c",10);
+drink[0]=VMLink("d",18);
+drink[0]=VMLink("e",10);
+drink[0]=VMLink("f",20);
+drink[0]=VMLink("g",15);
+drink[0]=VMLink("h",18);
+	while(power=true){
+		System.out.println("目前餘額:"+cash);
+		Scanner sc1=new Scanner(System.in);
+		String input=sc1.nextLine();
+		
+		switch(input){
+		case "1":
+			cash= cash+1;
+			break;
+		case "5":
+			cash=cash+5;
+			break;
+		case "10":
+			cash=cash+10;
+			break;
+		case "a":
+			
+				
+		}
+	}
+	}
+
+	private static VMLink VMLink(String string, int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

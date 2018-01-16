@@ -1,0 +1,13 @@
+package edu.fju.exam;
+
+public class Director extends Manager{
+	int bonus;
+	public Director(String name,int amount,int bonus){
+		super(name, amount);
+		this.bonus=bonus;
+	}
+@Override
+public void print(){
+	System.out.println(name+" "+amount+"("+bonus+")"+"\t");
+}
+}

@@ -1,0 +1,15 @@
+package edu.fju.exam;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		ArrayList<Employee> employee = new ArrayList<>();
+		employee.add(new Employee("Jack", 2500));
+		}
+	}
+
+
